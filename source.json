@@ -208,5 +208,19 @@
 		"de": "Der Froschkönig oder der eiserne Heinrich",
 		"pages": 12,
 		"told": "2019-6-19"
+		},
+"s031": {"title": "ヘンゼルとグレーテル",
+		"text": "子どもに語る グリムの昔話 3",
+		"khm": 15,
+		"de": "Hänsel und Gretel",
+		"pages": 25,
+		"told": "2019-8-6"
+		},
+"s032": {"title": "三まいの鳥の羽",
+		"text": "子どもに語る グリムの昔話 5",
+		"khm": 63,
+		"de": "Die drei Federn",
+		"pages": 10,
+		"told": ""
 		}
 }
