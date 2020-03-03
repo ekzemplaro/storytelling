@@ -67,7 +67,7 @@
 		"khm": 50,
 		"de": "Dornröschen",
 		"pages": 10,
-		"told": "2017-7-6"
+		"told": "2020-3-3"
 		},
 "s011": {"title": "青いあかり",
 		"text": "子どもに語る グリムの昔話 5",
@@ -193,7 +193,7 @@
 		"khm": 26,
 		"de": "Rotkäppchen",
 		"pages": 10,
-		"told": ""
+		"told": "2020-3-3"
 		},
 "s029": {"title": "灰かぶり",
 		"text": "子どもに語る グリムの昔話 4",
@@ -229,5 +229,12 @@
 		"de": "Der Arme und der Reiche",
 		"pages": 13,
 		"told": "2019-11-28"
+		},
+"s034": {"title": "森の家",
+		"text": "子どもに語る グリムの昔話 4",
+		"khm": 169,
+		"de": "Das Waldhaus",
+		"pages": 17,
+		"told": ""
 		}
 }
