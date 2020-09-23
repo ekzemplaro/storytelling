@@ -1,12 +1,15 @@
 // -----------------------------------------------------------------------
 //	storytelling.js
 //
-//					Feb/25/2019
+//					Sep/23/2020
 //
 // -----------------------------------------------------------------------
 jQuery (function ()
 {
 	jQuery("#outarea_aa").text ("*** storytelling *** start ***")
+
+	const day_last_year =  get_before_two_years_proc ()
+	const dd_last = Date.parse(day_last_year)
 
 	display_information()
 
@@ -36,7 +39,18 @@ jQuery (function ()
 			str_out += "<td>" + unit_aa.khm + "</td>"
 			str_out += "<td>" + unit_aa.de + "</td>"
 			str_out += "<td>" + unit_aa.pages + "</td>"
-			str_out += "<td>" + unit_aa.told + "</td>"
+
+			const ddx = Date.parse(unit_aa.told)
+			if (ddx <= dd_last)
+				{
+				str_out += "<td class=red>"
+				}
+			else
+				{
+				str_out += "<td>"
+				}
+
+			str_out += unit_aa.told + "</td>"
 			str_out += "</tr>"
 			}
 
@@ -60,6 +74,17 @@ function display_information()
 		str_out += data_aa
 		jQuery(".information").html (str_out)
 		})
+}
+
+// -----------------------------------------------------------------------
+// [4-4]:
+function get_before_two_years_proc ()
+{
+	const today = new Date ()
+	var ddx = (1900 + today.getYear () - 2) + "-" + (today.getMonth () +1)
+	ddx += "-" + today.getDate ()
+
+	return ddx
 }
 
 // -----------------------------------------------------------------------
