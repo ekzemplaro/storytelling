@@ -67,7 +67,7 @@
 		"khm": 50,
 		"de": "Dornröschen",
 		"pages": 10,
-		"told": "2020-3-3"
+		"told": "2020-12-4"
 		},
 "s011": {"title": "青いあかり",
 		"text": "子どもに語る グリムの昔話 5",
@@ -276,6 +276,13 @@
 		"text": "子どもに語る グリムの昔話 1",
 		"khm": 88,
 		"de": "Das singende, springende Löweneckerchen",
+		"pages": 17,
+		"told": ""
+		},
+"s041": {"title": "森のなかの三人のこびと",
+		"text": "子どもに語る グリムの昔話 5",
+		"khm": 13,
+		"de": "Die drei Männlein im Walde",
 		"pages": 17,
 		"told": ""
 		}
