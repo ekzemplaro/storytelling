@@ -1,7 +1,7 @@
 // -----------------------------------------------------------------------
 //	storytelling.js
 //
-//					Sep/23/2020
+//					Jun/07/2021
 //
 // -----------------------------------------------------------------------
 jQuery (function ()
@@ -27,6 +27,7 @@ jQuery (function ()
 		str_out += "<th>Deutsch</th>"
 		str_out += "<th>Pages</th>"
 		str_out += "<th>Told</th>"
+		str_out += "<th>At</th>"
 		str_out += "</tr>"
 		var icount = 0
 		for (var key in data_aa)
@@ -51,6 +52,7 @@ jQuery (function ()
 				}
 
 			str_out += unit_aa.told + "</td>"
+			str_out += "<td>" + unit_aa.at + "</td>"
 			str_out += "</tr>"
 			}
 
