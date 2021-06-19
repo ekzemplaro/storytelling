@@ -6,31 +6,8 @@
 <blockquote>
 </blockquote>
 
-<!--
-
-<a href="" target="_blank">
-大人のためのおはなし会</a><br />
-<blockquote>
-２０１９年４月１４日(日）　午前１０時～１２時<br />
-<br />
-</blockquote>
 
 
-<a href="" target="_blank">
-大人のためのおはなし会</a><br />
-<blockquote>
-２０１９年６月２３日(日）　午後２時３０分～３時３０分<br />
-<br />
-</blockquote>
-
-
--->
-
-
-<!--
-<a href="" target="_blank">
-大人のためのおはなし会</a><br />
--->
 
 
 <a href="http://tomodachi.d.dooo.jp/sub03-t.html" target="_blank">
@@ -55,7 +32,7 @@
 </blockquote>
 
 
-<a href="https://www.bunkyo.ac.jp/faculty/lib/klib/ainomi/farada.htm" target="_blank">
+<a href="https://www.bunkyo.ac.jp/library/guide/ainomi/guide/" target="_blank">
 おはなしファラダ</a><br />
 <blockquote>
 毎月第３木曜日　　10:00 A.M. - 12:00<br />
