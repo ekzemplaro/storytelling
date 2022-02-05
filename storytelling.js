@@ -1,7 +1,7 @@
 // -----------------------------------------------------------------------
 //	storytelling.js
 //
-//					Aug/31/2021
+//					Feb/06/2022
 //
 // -----------------------------------------------------------------------
 jQuery (function ()
@@ -14,7 +14,7 @@ jQuery (function ()
 
 	display_information()
 
-	var file_in = "./source.json"
+	const file_in = "./source.json"
 
 	jQuery.getJSON (file_in,function (data_aa)
 		{
@@ -173,7 +173,7 @@ function compare_by_told_proc (left,right)
 function get_before_two_years_proc ()
 {
 	const today = new Date ()
-	var ddx = (1900 + today.getYear () - 2) + "-" + (today.getMonth () +1)
+	var ddx = (today.getFullYear () - 2) + "-" + (today.getMonth () +1)
 	ddx += "-" + today.getDate ()
 
 	return ddx
